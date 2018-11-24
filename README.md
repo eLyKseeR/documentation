@@ -6,5 +6,8 @@ we maintain two sites with information on `eLyKseeR`
 
 
 
-
-this project is managed in [Zube](https://zube.io/elykseer/documentation-effort)
+ 
+  
+   
+   
+this project is managed in [Zube](https://zube.io)
