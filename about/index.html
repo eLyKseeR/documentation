@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>About</title>
-    <link rel="stylesheet" href="../assets/built/screen.css%3Fv=6097b7caba.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="preload" as="style" href="../assets/built/screen.css%3Fv=1d5c8f77d3.css" />
+    <link rel="preload" as="script" href="../assets/built/casper.js%3Fv=1d5c8f77d3" />
+
+    <link rel="stylesheet" type="text/css" href="../assets/built/screen.css%3Fv=1d5c8f77d3.css" />
 
     <link rel="canonical" href="index.html">
     <meta name="referrer" content="no-referrer-when-downgrade">
@@ -74,8 +80,8 @@ get in contact">
     <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="369afd3f72f7e2b95bf68e02cf" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://elykseer.github.io/documentation/" crossorigin="anonymous"></script>
     
     <link href="https://elykseer.github.io/documentation/webmentions/receive/" rel="webmention">
-    <script defer src="../public/cards.min.js%3Fv=6097b7caba"></script>
-    <link rel="stylesheet" type="text/css" href="../public/cards.min.css%3Fv=6097b7caba.css">
+    <script defer src="../public/cards.min.js%3Fv=1d5c8f77d3"></script>
+    <link rel="stylesheet" type="text/css" href="../public/cards.min.css%3Fv=1d5c8f77d3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <style>
@@ -102,25 +108,20 @@ get in contact">
     .gh-head-menu .nav-mastodon a::before {content: "\f4f6"}
     .gh-head-menu .nav-github a::before {content: "\f09b"}
 </style>
-<style>:root {--ghost-accent-color: #19a5ff;}</style>
+<style>:root {--ghost-accent-color: #7b8083;}</style>
+
 </head>
+<body class="page-template page-about is-head-left-logo has-cover">
+<div class="viewport">
 
-<body class="page-template page-about  is-head-left-logo">
-<div class="site">
-
-    <header id="gh-head" class="gh-head gh-outer">
-        <div class="gh-head-inner gh-inner">
+    <header id="gh-head" class="gh-head outer">
+        <div class="gh-head-inner inner">
             <div class="gh-head-brand">
-                <div class="gh-head-brand-wrapper">
-                    <a class="gh-head-logo" href="../index.html">
-                            <img src="../content/images/2024/04/elykseer_logo_100.png" alt="eLyKseeR cryptographic data archive">
-                    </a>
-                </div>
-                <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M17.5 17.5L12.5 12.5L17.5 17.5ZM14.1667 8.33333C14.1667 9.09938 14.0158 9.85792 13.7226 10.5657C13.4295 11.2734 12.9998 11.9164 12.4581 12.4581C11.9164 12.9998 11.2734 13.4295 10.5657 13.7226C9.85792 14.0158 9.09938 14.1667 8.33333 14.1667C7.56729 14.1667 6.80875 14.0158 6.10101 13.7226C5.39328 13.4295 4.75022 12.9998 4.20854 12.4581C3.66687 11.9164 3.23719 11.2734 2.94404 10.5657C2.65088 9.85792 2.5 9.09938 2.5 8.33333C2.5 6.78624 3.11458 5.30251 4.20854 4.20854C5.30251 3.11458 6.78624 2.5 8.33333 2.5C9.88043 2.5 11.3642 3.11458 12.4581 4.20854C13.5521 5.30251 14.1667 6.78624 14.1667 8.33333Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-</button>
-                <button class="gh-burger"></button>
+                <a class="gh-head-logo" href="../index.html">
+                        <img src="../content/images/2024/04/elykseer_logo_100.png" alt="eLyKseeR cryptographic data archive">
+                </a>
+                <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>
+                <button class="gh-burger" aria-label="Main Menu"></button>
             </div>
 
             <nav class="gh-head-menu">
@@ -138,49 +139,46 @@ get in contact">
             </nav>
 
             <div class="gh-head-actions">
-                        <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M17.5 17.5L12.5 12.5L17.5 17.5ZM14.1667 8.33333C14.1667 9.09938 14.0158 9.85792 13.7226 10.5657C13.4295 11.2734 12.9998 11.9164 12.4581 12.4581C11.9164 12.9998 11.2734 13.4295 10.5657 13.7226C9.85792 14.0158 9.09938 14.1667 8.33333 14.1667C7.56729 14.1667 6.80875 14.0158 6.10101 13.7226C5.39328 13.4295 4.75022 12.9998 4.20854 12.4581C3.66687 11.9164 3.23719 11.2734 2.94404 10.5657C2.65088 9.85792 2.5 9.09938 2.5 8.33333C2.5 6.78624 3.11458 5.30251 4.20854 4.20854C5.30251 3.11458 6.78624 2.5 8.33333 2.5C9.88043 2.5 11.3642 3.11458 12.4581 4.20854C13.5521 5.30251 14.1667 6.78624 14.1667 8.33333Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-</button>
+                        <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>
             </div>
         </div>
     </header>
 
-
     <div class="site-content">
         
 
-<main class="site-main">
-    <article class="post no-image">
 
-            <header class="gh-article-header gh-canvas">
-                <h1 class="gh-article-title">About</h1>
-                            </header>
 
-        <div class="post-content gh-content gh-canvas">
-            <p>This site documents the open source work around <em>eLyKseeR cryptographic data archive</em> by Alexander Diemand.</p><p>You can contribute with code, experience reports, or more documentation.</p><div class="kg-card kg-button-card kg-align-center"><a href="mailto: alex@elykseer.com" class="kg-btn kg-btn-accent">get in contact</a></div>
-        </div>
+<main id="site-main" class="site-main">
+<article class="article post no-image">
 
-    </article>
+        <header class="article-header gh-canvas">
+
+            <h1 class="article-title">About</h1>
+
+
+        </header>
+
+    <section class="gh-content gh-canvas">
+        <p>This site documents the open source work around <em>eLyKseeR cryptographic data archive</em> by Alexander Diemand.</p><p>You can contribute with code, experience reports, or more documentation.</p><div class="kg-card kg-button-card kg-align-center"><a href="mailto: alex@elykseer.com" class="kg-btn kg-btn-accent">get in contact</a></div>
+    </section>
+
+</article>
 </main>
 
 
     </div>
 
-    <footer class="gh-foot gh-outer">
-        <div class="gh-foot-inner gh-inner">
-            <div class="gh-copyright">
-                eLyKseeR cryptographic data archive © 2024
-            </div>
-                <nav class="gh-foot-menu">
-                    <ul class="nav">
+    <footer class="site-footer outer">
+        <div class="inner">
+            <section class="copyright"><a href="../index.html">eLyKseeR cryptographic data archive</a> &copy; 2024</section>
+            <nav class="site-footer-nav">
+                <ul class="nav">
     <li class="nav-sign-up"><a href="index.html#/portal/">Sign up</a></li>
 </ul>
 
-                </nav>
-            <div class="gh-powered-by">
-                <a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a>
-            </div>
+            </nav>
+            <div class="gh-powered-by"><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
         </div>
     </footer>
 
@@ -228,11 +226,21 @@ get in contact">
     </div>
 </div>
 <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
     crossorigin="anonymous">
 </script>
-<script src="../assets/built/main.min.js%3Fv=6097b7caba"></script>
+<script src="../assets/built/casper.js%3Fv=1d5c8f77d3"></script>
+<script>
+$(document).ready(function () {
+    // Mobile Menu Trigger
+    $('.gh-burger').click(function () {
+        $('body').toggleClass('gh-head-open');
+    });
+    // FitVids - Makes video embeds responsive
+    $(".gh-content").fitVids();
+});
+</script>
 
 
 
