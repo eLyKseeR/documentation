@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>Example using binary releases</title>
+    <title>Distribute encrypted chunk files</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="HandheldFriendly" content="True" />
@@ -18,41 +18,25 @@
     
     <meta property="og:site_name" content="eLyKseeR cryptographic data archive">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Example using binary releases">
-    <meta property="og:description" content="Starting with version v0.9.12 we are releasing precompiled binaries for various platforms and architectures.
-See our Github site: https://github.com/eLyKseeR/elykseer-ml/releases
-
-
-Preparations
-
-Extract the zip of downloaded binaries to a directory and point the environment variable at them:
-
-export LXR_BINARIES&#x3D;${HOME}/Downloads/Darwin_arm64">
-    <meta property="og:url" content="https://elykseer.github.io/documentation/example-using-binary-releases/">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000">
-    <meta property="article:published_time" content="2024-06-24T12:22:03.000Z">
-    <meta property="article:modified_time" content="2024-06-24T13:04:06.000Z">
+    <meta property="og:title" content="Distribute encrypted chunk files">
+    <meta property="og:description" content="When backing up files, their data are spread over assemblies and encrypted. These assemblies are broken up into chunk files of 256 kB in size. These chunk files can be distributed to different storage medium for long term archiving. A copy of chunks can be made to a number of">
+    <meta property="og:url" content="https://elykseer.github.io/documentation/distribute-encrypted-chunk-files/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000">
+    <meta property="article:published_time" content="2024-07-15T22:30:34.000Z">
+    <meta property="article:modified_time" content="2024-07-15T22:30:34.000Z">
     <meta property="article:tag" content="01 releases">
     
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Example using binary releases">
-    <meta name="twitter:description" content="Starting with version v0.9.12 we are releasing precompiled binaries for various platforms and architectures.
-See our Github site: https://github.com/eLyKseeR/elykseer-ml/releases
-
-
-Preparations
-
-Extract the zip of downloaded binaries to a directory and point the environment variable at them:
-
-export LXR_BINARIES&#x3D;${HOME}/Downloads/Darwin_arm64">
-    <meta name="twitter:url" content="https://elykseer.github.io/documentation/example-using-binary-releases/">
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000">
+    <meta name="twitter:title" content="Distribute encrypted chunk files">
+    <meta name="twitter:description" content="When backing up files, their data are spread over assemblies and encrypted. These assemblies are broken up into chunk files of 256 kB in size. These chunk files can be distributed to different storage medium for long term archiving. A copy of chunks can be made to a number of">
+    <meta name="twitter:url" content="https://elykseer.github.io/documentation/distribute-encrypted-chunk-files/">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000">
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="Alexander Diemand">
     <meta name="twitter:label2" content="Filed under">
     <meta name="twitter:data2" content="01 releases">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1800">
+    <meta property="og:image:height" content="1798">
     
     <script type="application/ld+json">
 {
@@ -77,19 +61,19 @@ export LXR_BINARIES&#x3D;${HOME}/Downloads/Darwin_arm64">
             "https://ioc.exchange/@elykseer"
         ]
     },
-    "headline": "Example using binary releases",
-    "url": "https://elykseer.github.io/documentation/example-using-binary-releases/",
-    "datePublished": "2024-06-24T12:22:03.000Z",
-    "dateModified": "2024-06-24T13:04:06.000Z",
+    "headline": "Distribute encrypted chunk files",
+    "url": "https://elykseer.github.io/documentation/distribute-encrypted-chunk-files/",
+    "datePublished": "2024-07-15T22:30:34.000Z",
+    "dateModified": "2024-07-15T22:30:34.000Z",
     "image": {
         "@type": "ImageObject",
-        "url": "https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&ixlib=rb-4.0.3&q=80&w=2000",
+        "url": "https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&ixlib=rb-4.0.3&q=80&w=2000",
         "width": 1200,
-        "height": 1800
+        "height": 1798
     },
     "keywords": "01 releases",
-    "description": "Starting with version v0.9.12 we are releasing precompiled binaries for various platforms and architectures.\nSee our Github site: https://github.com/eLyKseeR/elykseer-ml/releases\n\n\nPreparations\n\nExtract the zip of downloaded binaries to a directory and point the environment variable at them:\n\nexport LXR_BINARIES&#x3D;${HOME}/Downloads/Darwin_arm64\n\n(this might change depending on your platform)\n\nOnly on macOS: go into this directory and setup the binaries explicitly with the following commands. This ",
-    "mainEntityOfPage": "https://elykseer.github.io/documentation/example-using-binary-releases/"
+    "description": "When backing up files, their data are spread over assemblies and encrypted. These assemblies are broken up into chunk files of 256 kB in size. These chunk files can be distributed to different storage medium for long term archiving. A copy of chunks can be made to a number of targets:\n\n * AWS S3 - a commercial available storage solution in the cloud\n * MinIO - a self-hosted S3 storage system that can be extended to PB storage clusters\n * Filesystems - like external disks, USB sticks, or network ",
+    "mainEntityOfPage": "https://elykseer.github.io/documentation/distribute-encrypted-chunk-files/"
 }
     </script>
 
@@ -179,7 +163,7 @@ export LXR_BINARIES&#x3D;${HOME}/Downloads/Darwin_arm64">
                 </span>
         </div>
 
-        <h1 class="article-title">Example using binary releases</h1>
+        <h1 class="article-title">Distribute encrypted chunk files</h1>
 
 
         <div class="article-byline">
@@ -195,7 +179,7 @@ export LXR_BINARIES&#x3D;${HOME}/Downloads/Darwin_arm64">
             <div class="article-byline-meta">
                 <h4 class="author-name"><a href="../author/alex/index.html">Alexander Diemand</a></h4>
                 <div class="byline-meta-content">
-                    <time class="byline-meta-date" datetime="2024-06-24">Jun 24, 2024</time>
+                    <time class="byline-meta-date" datetime="2024-07-16">Jul 16, 2024</time>
                         <span class="byline-reading-time"><span class="bull">&bull;</span> 2 min read</span>
                 </div>
             </div>
@@ -205,52 +189,79 @@ export LXR_BINARIES&#x3D;${HOME}/Downloads/Darwin_arm64">
 
             <figure class="article-image">
                 <img
-                    srcset="https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;300 300w,
-                            https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;600 600w,
-                            https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;1000 1000w,
-                            https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000 2000w"
+                    srcset="https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;300 300w,
+                            https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;600 600w,
+                            https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;1000 1000w,
+                            https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000 2000w"
                     sizes="(min-width: 1400px) 1400px, 92vw"
-                    src="https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000"
-                    alt="bees on beatiful flowers"
+                    src="https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000"
+                    alt="drops on water surface"
                 />
-                    <figcaption><span style="white-space: pre-wrap;">Photo by </span><a href="https://unsplash.com/@jcotten?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit"><span style="white-space: pre-wrap;">Joshua J. Cotten</span></a><span style="white-space: pre-wrap;"> / </span><a href="https://unsplash.com/?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit"><span style="white-space: pre-wrap;">Unsplash</span></a></figcaption>
+                    <figcaption><span style="white-space: pre-wrap;">Photo by </span><a href="https://unsplash.com/@janfillem?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit"><span style="white-space: pre-wrap;">Jan-Willem</span></a><span style="white-space: pre-wrap;"> / </span><a href="https://unsplash.com/?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit"><span style="white-space: pre-wrap;">Unsplash</span></a></figcaption>
             </figure>
 
     </header>
 
     <section class="gh-content gh-canvas">
-        <p>Starting with version v0.9.12 we are releasing precompiled binaries for various platforms and architectures. <br>See our Github site: <a href="https://github.com/eLyKseeR/elykseer-ml/releases?ref=localhost">https://github.com/eLyKseeR/elykseer-ml/releases</a></p><h2 id="preparations">Preparations</h2><p>Extract the zip of downloaded binaries to a directory and point the environment variable at them:</p><p><code>export LXR_BINARIES=${HOME}/Downloads/Darwin_arm64</code></p><p>(this might change depending on your platform)</p><p>Only on <strong>macOS</strong>: go into this directory and setup the binaries explicitly with the following commands. This is necessary as macOS retracts rights to execute a downloaded binary by default. </p><figure class="kg-card kg-code-card"><pre><code class="language-sh">cd ${LXR_BINARIES}
-sh ./setup.sh</code></pre><figcaption><p><span style="white-space: pre-wrap;">(only required on macOS)</span></p></figcaption></figure><p>Also, define where to store meta data and encrypted chunks:</p><p><code>export LXR_DB=${HOME}/elykseer.db</code></p><p><code>export LXR_CHUNKS=${HOME}/elykseer.chunks</code></p><p>First, we need to create directories that will hold the meta data and the encrypted chunks from backups.</p><p><code>mkdir -v ${LXR_DB}</code></p><p><code>mkdir -v ${LXR_CHUNKS}</code></p><p>And, next we create irmin's configuration file and initialise the database:</p><pre><code class="language-sh">cat &lt;&lt; EOF &gt; irmin.yml
-root: ${LXR_DB}
-store: git
-contents: json-value
-EOF</code></pre><p><code>${LXR_BINARIES}/irmin init</code></p><h2 id="test-run">Test run</h2><h3 id="preparations-1">Preparations</h3><p>Let's create a few files with random data and remember their checksums:</p><pre><code class="language-sh">MYID=test1
-dd if=/dev/random of=test1M bs=1M count=1
-dd if=/dev/random of=test4M bs=1M count=4
-dd if=/dev/random of=test8M bs=1M count=8
-md5sum test[148]M &gt; md5sums || md5 test[148]M &gt; md5sums</code></pre><h3 id="backup">Backup</h3><p>Then, encrypt and backup these files:</p><pre><code class="language-sh">${LXR_BINARIES}/lxr_backup.exe -v -x ${LXR_CHUNKS} -d ${LXR_DB} -n 16 -i $MYID test1M test4M test8M</code></pre><p>The output will look like this:</p><pre><code>INFO finalising assembly 161e4e0d5096cb8b5cfffcbb2b437c7eb9a612a9424a6d03659e485b812ed96a with apos = 4161552
-INFO encrypted assembly: 161e4e0d5096cb8b5cfffcbb2b437c7eb9a612a9424a6d03659e485b812ed96a
-INFO block backup succeeded of file: test8M
-INFO finalising assembly 318a57be77e51a00a4561ebc82691c97ee9ba894379a7b177cb215a29551b4a3 with apos = 4161552
-INFO encrypted assembly: 318a57be77e51a00a4561ebc82691c97ee9ba894379a7b177cb215a29551b4a3
-INFO block backup succeeded of file: test4M
-INFO finalising assembly 755c4033d76f8a0a669fee253db850c7dc47502179bde27d7f71db17d3019638 with apos = 4161552
-INFO encrypted assembly: 755c4033d76f8a0a669fee253db850c7dc47502179bde27d7f71db17d3019638
-INFO block backup succeeded of file: test1M
-INFO finalising assembly d7b1f4bf29cfcf2a6ce994ebece3ecb18127dab027a94ec7125418ecffbc195d with apos = 1146896
-INFO encrypted assembly: d7b1f4bf29cfcf2a6ce994ebece3ecb18127dab027a94ec7125418ecffbc195d
-done.
-    total allocated: 9997965.000000</code></pre><p>We can inspect a file's meta data using its filehash:</p><p><code>FHASH=$(${LXR_BINARIES}/lxr_filehash.exe -f test1M -i ${MYID} | cut -d ' ' -f 2)</code></p><pre><code class="language-sh">${LXR_BINARIES}/irmin get ${MYID}/relfiles/${FHASH:4:2}/${FHASH} | jq -r </code></pre><h3 id="restore">Restore</h3><p>Let's recreate the files from the encrypted chunks with the help of meta data:</p><pre><code class="language-sh">PREVPWD=$(pwd)
-TEMPORARY=$(mktemp -d)
-${LXR_BINARIES}/lxr_restore.exe -v -x ${LXR_CHUNKS} -d ${LXR_DB} -n 16 -i $MYID -o ${TEMPORARY} test1M test4M test8M
-cd ${TEMPORARY}
-md5sum -c ${PREVPWD}/md5sums
-cd ${PREVPWD}</code></pre><p>The output will look like this:</p><pre><code class="language-sh">INFO restoring file test8M from 256 blocks
-INFO restoring file test4M from 128 blocks
-INFO restoring file test1M from 32 blocks
-  restored 3 files with 13631488 bytes in total</code></pre><p>And, the validation of the restored files might be done so:</p><pre><code class="language-sh">cd ${TEMPORARY}
-md5sum -c ${PREVPWD}/md5sums || { md5 test[148]M | diff - ${PREVPWD}/md5sums &amp;&amp; echo OK || echo failed; }
-cd ${PREVPWD}</code></pre><p>The above command should output "OK" to indicate that the file checksums of the restored files match the one previously recorded.</p>
+        <p>When backing up files, their data are spread over assemblies and encrypted. These assemblies are broken up into chunk files of 256 kB in size. These chunk files can be distributed to different storage medium for long term archiving. A copy of chunks can be made to a number of targets:</p><ul><li><a href="https://aws.amazon.com/s3/?ref=localhost" rel="noreferrer">AWS S3</a> - a commercial available storage solution in the cloud</li><li><a href="https://min.io/?ref=localhost" rel="noreferrer">MinIO</a> - a self-hosted S3 storage system that can be extended to PB storage clusters</li><li>Filesystems - like external disks, USB sticks, or network attached storage (NAS)</li></ul><p>A good practice is to not put all eggs in the same basket, but distribute the chunks to several storage medium in an overlapping way so to keep a certain redundancy.</p><h2 id="lxrdistribute"><em>lxr_distribute</em></h2><p>The program "lxr_distribute" accepts a number of arguments and will distribute chunks to storage targets, or will fetch chunks from these.</p><pre><code class="language-sh">lxr_distribute:                      
+  -v verbose output
+  -d sets direction of copy: GET | PUT (default)
+  -x sets path for encrypted chunks
+  -n sets number of chunks (16-256) per assembly
+  -i sets own identifier
+  -c sets path for sink configuration file
+  -a sets assembly id
+  -help  Display this list of options
+  --help  Display this list of options</code></pre><ul><li><code>-d</code> sets the direction of the transfer: either GET or PUT chunks; PUT is the default</li><li><code>-x</code> the path to the local directory that holds the chunks</li><li><code>-n</code> the number of chunks per assembly</li><li><code>-i</code> our own identifier</li><li><code>-c</code> points to a configuration file that describes the sinks (targets) and how to access them</li><li><code>-a</code> indicates the assembly which chunks need to be transferred</li></ul><p>note: the chunks identifiers are computed from the provided information: assembly identifier, chunks per assembly, and own identifier. It will lead to unknown identifiers if any one of those is not entered correctly.</p><h4 id="example-call">example call:</h4><p><code>lxr_distribute -v -d PUT -x ../elykseer.chunks -n 16 -i mytest \<br>    -c sinks.json -a "c74b..95f4" 8 8 16</code></p><p>with the definitions of the targets in <code>sinks.json</code>:</p><pre><code class="language-JSON">{
+  "version": "1.0.0",
+  "sinks": [
+    {
+        "type": "S3",
+        "name": "s3_minio",
+        "description": "minio storage cluster",
+        "credentials": {
+            "access-key": "minioadmin",
+            "secret-key": "s3cr3t"
+        },
+        "access": {
+            "bucket": "lxr",
+            "prefix": "lxr",
+            "host": "localhost",
+            "port": "9000",
+            "protocol": "https"
+        }
+    },
+    {
+        "type": "S3",
+        "name": "s3_aws",
+        "description": "AWS S3 storage",
+        "credentials": {
+            "access-key": "AKIA4VLHJ8YV6EXAMPLE",
+            "secret-key": "s3cr3t"
+        },
+        "access": {
+            "bucket": "mybucket",
+            "prefix": "lxr",
+            "host": "mybucket.s3.eu-west-3.amazonaws.com",
+            "port": "443",
+            "protocol": "https"
+        }
+    },
+    {
+        "type": "FS",
+        "name": "fs_copy",
+        "description": "filesystem copy",
+        "credentials": {
+            "user": "*",
+            "group": "root",
+            "permissions": "640"
+        },
+        "access": {
+            "basepath": "/data/secure_stick"
+        }
+    }
+  ]
+}</code></pre><p>The last arguments on the command line define how many chunks are copied to which sink. The targets are in the same order as in the sinks.json file. In the above example we copy the first eight chunks to MinIO, then the next eight chunks to AWS S3, and all 16 chunks to the filesystem path <code>/data/secure_stick</code>. Overall this gives us 2x redundancy and we only copy have the chunks to either cloud storage.</p>
     </section>
 
 
@@ -265,16 +276,16 @@ cd ${PREVPWD}</code></pre><p>The above command should output "OK" to indicate th
                         
 <article class="post-card post">
 
-    <a class="post-card-image-link" href="../distribute-encrypted-chunk-files/index.html">
+    <a class="post-card-image-link" href="../example-using-binary-releases/index.html">
 
         <img class="post-card-image"
-            srcset="https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;300 300w,
-                    https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;600 600w,
-                    https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;1000 1000w,
-                    https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000 2000w"
+            srcset="https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;300 300w,
+                    https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;600 600w,
+                    https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;1000 1000w,
+                    https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000 2000w"
             sizes="(max-width: 1000px) 400px, 800px"
-            src="https://images.unsplash.com/photo-1525087740718-9e0f2c58c7ef?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxkcm9wcyUyMHdhdGVyJTIwc3VyZmFjZXxlbnwwfHx8fDE3MjEwNTU1NzZ8MA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;600"
-            alt="drops on water surface"
+            src="https://images.unsplash.com/photo-1598545850141-7fdfa6a7957a?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDYzfHxiZWVzfGVufDB8fHx8MTcxOTIzNDE5Mnww&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;600"
+            alt="bees on beatiful flowers"
             loading="lazy"
         />
 
@@ -283,19 +294,27 @@ cd ${PREVPWD}</code></pre><p>The above command should output "OK" to indicate th
 
     <div class="post-card-content">
 
-        <a class="post-card-content-link" href="../distribute-encrypted-chunk-files/index.html">
+        <a class="post-card-content-link" href="../example-using-binary-releases/index.html">
             <header class="post-card-header">
                 <div class="post-card-tags">
                 </div>
                 <h2 class="post-card-title">
-                    Distribute encrypted chunk files
+                    Example using binary releases
                 </h2>
             </header>
-                <div class="post-card-excerpt">When backing up files, their data are spread over assemblies and encrypted. These assemblies are broken up into chunk files of 256 kB in size. These chunk files can be distributed to different storage medium for long term archiving. A copy of chunks can be made to a number of</div>
+                <div class="post-card-excerpt">Starting with version v0.9.12 we are releasing precompiled binaries for various platforms and architectures.
+See our Github site: https://github.com/eLyKseeR/elykseer-ml/releases
+
+
+Preparations
+
+Extract the zip of downloaded binaries to a directory and point the environment variable at them:
+
+export LXR_BINARIES=${HOME}/Downloads/Darwin_arm64</div>
         </a>
 
         <footer class="post-card-meta">
-            <time class="post-card-meta-date" datetime="2024-07-16">Jul 16, 2024</time>
+            <time class="post-card-meta-date" datetime="2024-06-24">Jun 24, 2024</time>
                 <span class="post-card-meta-length">2 min read</span>
         </footer>
 
